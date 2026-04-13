@@ -33,5 +33,6 @@ Note:
 - Afternoon Flight - any flight that departs between 12:00 and 17:59.
 - Evening Flight - any flight that departs between 18:00 and 23:59.
 - Midnight Flight - any flight that departs between 00:00 and 05:59.
+
 Therefore each time-of-day covers ~6 hours.
 <img width="1373" height="560" alt="image" src="https://github.com/user-attachments/assets/f8364989-97c0-4d44-b555-f562e1d195dd" />
