@@ -96,7 +96,7 @@ Another interesting finding upon reading Charts 5 and 6 together is that with th
 
 # 🧠 **Forecasting Flight Delay using Time Series Model**
 
-**Chart 6: Volume of Delayed Flights (Jan 2022 to Dec 2024)**
+**Chart 7: Volume of Delayed Flights (Jan 2022 to Dec 2024)**
 
 <img width="1184" height="618" alt="image" src="https://github.com/user-attachments/assets/741c43e5-afcd-4a17-801b-c6cd350cac3d" />
 
