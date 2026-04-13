@@ -71,3 +71,19 @@ The above chart illustrates that:
 The above chart illustrates that:
 - In terms of the proportion of delayed flights, Evening Hrs flights are the most inefficient since 33% of their flights were delayed in 2024. Therefore, this finding corroborates one of the findings of Chart 3.
 - In terms of average delay duration (in minutes), Midnight Hrs flights are the most inefficient because on average, they are delayed by 144 minutes (2 hrs and 24 mins), which is nearly 2 times the delay rate of Morning, Afternoon, and Evening Hrs flights.
+
+**Chart 5: Top 35 Airport Origins by Number of Delayed Flights**
+
+Context: The reason behind analyzing only the top 35 airports (by origins) and not all airports was that approximately 70% of the total flights delayed in 2024 came from these top 35 airports.
+
+<img width="1121" height="594" alt="image" src="https://github.com/user-attachments/assets/3f293022-e16c-44d4-9520-24f11f789383" />
+
+The above chart illustrates that:
+- **DFW is in a league of its own.** Dallas/Fort Worth originates roughly 82,000 delayed flights in 2024 — meaningfully ahead of the next tier of Denver (DEN, ~69,500), Chicago O'Hare (ORD, ~65,500), Charlotte (CLT, ~60,000) and Atlanta (ATL, ~59,000). These five airports form a clear top tier, all major hub-and-spoke hubs with enormous connecting traffic. Their sheer volume of operations makes them naturally susceptible to delay accumulation.
+- **Volume and mean don't have a statistically meaningful correlation.** The red line does not follow the bars — it moves independently, which is the most important structural insight in this chart. SEA (Seattle) and DCA (Washington Reagan) both have moderate delay volumes (~34,500 and ~26,000 respectively) but post two of the lowest mean delays on the chart (~56 minutes each). Conversely, MCO (Orlando), IAH (Houston Intercontinental), and STL (St. Louis) show relatively high mean delays despite sitting in the lower half of the volume ranking. This tells us that being a busy origin does not necessarily mean your delays are long — and a quieter airport can still punish passengers with lengthy waits when disruptions do occur.
+
+**Chart 6: Top 35 Airport Destinations by Number of Delayed Flights**
+
+Context: The reason behind analyzing only the top 35 airports (by destination) and not all airports was that approximately 70% of the total flights delayed in 2024 came from these top 35 airports.
+
+<img width="1095" height="608" alt="image" src="https://github.com/user-attachments/assets/de8a48f1-7f41-4957-b21b-0f0c49fde7ea" />
