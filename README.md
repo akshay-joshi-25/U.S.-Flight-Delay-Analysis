@@ -29,10 +29,11 @@ You can access this dataset (via Row Zero) by clicking [here](https://rowzero.co
 Chart 1: Number of Flights by Month with Time-of-Day Breakdown
 
 Note:
-- Morning Flight - any flight that departs between 06:00 and 11:59.
-- Afternoon Flight - any flight that departs between 12:00 and 17:59.
-- Evening Flight - any flight that departs between 18:00 and 23:59.
-- Midnight Flight - any flight that departs between 00:00 and 05:59.
+- Morning Hrs - consists of all flights that depart anytime between **06:00 and 11:59.**
+- Afternoon Hrs - consists of all flights that depart anytime between **12:00 and 17:59.**
+- Evening Hrs - consists of all flights that depart anytime between **18:00 and 23:59.**
+- Midnight Hrs - consists of all flights that depart anytime between **00:00 and 05:59.**
 
 Therefore each time-of-day covers ~6 hours.
+
 <img width="1373" height="560" alt="image" src="https://github.com/user-attachments/assets/f8364989-97c0-4d44-b555-f562e1d195dd" />
