@@ -124,3 +124,10 @@ This is the strongest panel in the diagnostic. The sample quantiles track the re
 
 **Bottom-right — Correlogram (ACF of Residuals)**
 All autocorrelation bars fall well within the shaded confidence band (approximately ±0.35) at every lag from 1 to 10. There is no lag where the residuals show significant autocorrelation. This is the key test for a time series model — it confirms that the SARIMA specification has successfully captured the temporal structure in the data, leaving behind white noise residuals. Nothing systematic remains unexplained.
+
+Since the model diagnostics showed that the above SARIMA model is well fitted, we will use it to predict delayed flights between Jan 2025 and July 2025 and compare it with the actuals.
+
+**Chart 9: Actuals vs. Predictions Comparison**
+
+<img width="836" height="182" alt="image" src="https://github.com/user-attachments/assets/e3f20a28-a716-4303-ad6a-25abf2ecce65" />
+
