@@ -111,3 +111,16 @@ The above time series yielded a p-value of 0.000005 (≈ 5.11 × 10⁻⁶) and a
 
 <img width="311" height="213" alt="image" src="https://github.com/user-attachments/assets/6d6e9255-d854-4370-9899-2911b989cf64" />
 
+There are four diagnostic panels here, each testing a different assumption. Together they paint a clear picture of model quality.
+
+**Top-left — Standardised Residuals**
+The residuals fluctuate around zero without any obvious drift, trend, or growing variance over time. There are a couple of spikes (notably one reaching above 2 and one below -2) but nothing extreme enough to be alarming. This is broadly healthy — the model is not systematically over- or under-predicting across the series.
+
+**Top-right — Histogram + Estimated Density**
+The histogram of residuals is compared against a standard Normal N(0,1) curve (green) and a KDE of the actual residuals (orange). The residuals are reasonably bell-shaped and centred near zero, though there is a slight right skew and the distribution is a little narrower than the theoretical normal. This suggests near-normality, which is acceptable for forecasting purposes, though not perfect.
+
+**Bottom-left — Q-Q Plot**
+This is the strongest panel in the diagnostic. The sample quantiles track the red theoretical line very closely across almost the entire range, with only mild deviation at the upper tail (the top two points drift slightly right). This is a good result — it confirms that residuals are approximately normally distributed, which validates the model's statistical inference and confidence intervals.
+
+**Bottom-right — Correlogram (ACF of Residuals)**
+All autocorrelation bars fall well within the shaded confidence band (approximately ±0.35) at every lag from 1 to 10. There is no lag where the residuals show significant autocorrelation. This is the key test for a time series model — it confirms that the SARIMA specification has successfully captured the temporal structure in the data, leaving behind white noise residuals. Nothing systematic remains unexplained.
