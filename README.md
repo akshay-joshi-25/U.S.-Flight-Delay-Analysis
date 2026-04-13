@@ -69,5 +69,5 @@ The above chart illustrates that:
 <img width="1013" height="541" alt="image" src="https://github.com/user-attachments/assets/3f766a54-7723-4fa3-8be7-1fb25b3a9e41" />
 
 The above chart illustrates that:
-- In terms of the proportion of delayed flights, Evening Hrs flights are the most inefficient since 33% of their flights were delayed in 2024.
+- In terms of the proportion of delayed flights, Evening Hrs flights are the most inefficient since 33% of their flights were delayed in 2024. Therefore, this finding corroborates one of the findings of Chart 3.
 - In terms of average delay duration (in minutes), Midnight Hrs flights are the most inefficient because on average, they are delayed by 144 minutes (2 hrs and 24 mins), which is nearly 2 times the delay rate of Morning, Afternoon, and Evening Hrs flights.
