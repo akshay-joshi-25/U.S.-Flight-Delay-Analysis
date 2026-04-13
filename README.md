@@ -38,7 +38,7 @@ Therefore each time-of-day covers ~6 hours.
 
 <img width="1373" height="560" alt="image" src="https://github.com/user-attachments/assets/f8364989-97c0-4d44-b555-f562e1d195dd" />
 
-The above chart clearly illustrates that while Morning, Afternoon, Evening, and Midnight hours cover exactly the same number of hours (~6 hrs), Morning and Afternoon flights each account to roughly 35% of the total flights every month with Evening (~24%) and Midnight flights (~6%) being a distant #3 and #4 respectively in terms of flight distribution. This shows that majority Americans prefer travelling domestically during daylight hours.
+The above chart clearly illustrates that while Morning, Afternoon, Evening, and Midnight hours cover exactly the same number of hours (~6 hrs), Morning and Afternoon flights each account to 36% and 35% of the total flights respectively in 2024 with Evening (~23%) and Midnight flights (~5%) being a distant #3 and #4 respectively in terms of flight distribution. This shows that majority Americans prefer travelling domestically during daylight hours.
 
 Flight volumes follow a clear seasonal pattern. The year starts quietly (January ~560k, February ~550k — the lowest month), builds through spring, peaks in summer (July at ~660k — the busiest month), eases through autumn, and dips again in November (~605k) before a mild December recovery. Summer demand is roughly 20% higher than the winter low.
 
@@ -61,3 +61,5 @@ In conclusion, delay rate is not affected by the volume of flights in a month bu
 The above chart illustrates that:
 
 - Like Chart 2, Chart 3 also establishes that the volume of delayed flights follow a strong seasonal pattern. The May–July window is clearly the most disrupted period with July peaking at roughly 185,000 delayed flights, nearly 2.3 times the February low of ~80,000. Autumn (September–November) provides sustained relief, with all three months sitting around 84,000–87,000 delayed flights — the best of the year. December then spikes back up to ~128,000, reflecting the return of winter disruption.
+- A rather surprising finding from the above chart is the distribution of delayed flights by Time-of-day. For instance, although Chart 1 established that Morning hrs flights accounted to 36% of the total flights in 2024, Chart 3 showed that they accounted to only 20% of the total delayed flights that year. On the other hand, while Evening hrs flights only accounted to 23% of the total flights in 2024 (based on Chart 1), they accounted to 39% of the total delayed flights that year (based on Chart 3). This concludes that Evening hrs flights were relatively the most inefficient in terms of being on time in 2024.
+- The average delay duration trend clearly illustrates a strong positive correlation (+0.92) between the number of flights delayed in a month and the monthly average delay in minutes. In other words, greater the number of delayed flights in a month, higher would be the average delay in minutes. 
