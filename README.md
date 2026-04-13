@@ -98,5 +98,9 @@ Another interesting finding upon reading Charts 5 and 6 together is that with th
 
 **Chart 7: Volume of Delayed Flights (Jan 2022 to Dec 2024)**
 
-<img width="1184" height="618" alt="image" src="https://github.com/user-attachments/assets/741c43e5-afcd-4a17-801b-c6cd350cac3d" />
+<img width="1184" height="618" alt="image" src="https://github.com/user-attachments/assets/bbd2c446-6b71-47c2-883b-12253ef4c617" />
 
+Three clear patterns emerge from this time series.
+- **Consistent seasonality.** Every single year follows the same rhythm: delays climb into a summer peak (June–July), fall back through autumn to a trough around September–October, briefly spike in December, then dip again in February. This seasonal heartbeat repeats reliably across all three years and confirms what the earlier charts showed for 2024 alone.
+- **A worsening multi-year trend.** The peaks are getting higher year on year. The summer 2022 peak reached roughly 140,000 delayed flights; summer 2023 surged to ~175,000; and summer 2024 hit a new high of ~185,000. The troughs are also drifting upward — the autumn 2023 low (~78,000) was lower than autumn 2024 (~82,000), but the general floor of the series is rising. The network is handling more total flights and accumulating more delays over time.
+- **2023 was the most disrupted year overall.** Not only did July 2023 post the highest single month until that point, but the entire mid-year period (May–August 2023) was elevated. 2024 then broke the July record but showed a notably sharper and deeper autumn recovery, with September–November 2024 forming the cleanest low period across the whole series.
