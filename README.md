@@ -95,3 +95,8 @@ The above chart illustrates that:
 Another interesting finding upon reading Charts 5 and 6 together is that with the exception of MSY (New Orleans), the same airports appear in both top 35 lists, confirming that delay risk is structurally concentrated at a handful of major hubs — DFW, DEN, ORD, ATL, and CLT. These airports generate and receive the most delayed flights simply because they handle the most total traffic and act as connection points where delays propagate across the network.
 
 # 🧠 **Forecasting Flight Delay using Time Series Model**
+
+**Chart 6: Volume of Delayed Flights (Jan 2022 to Dec 2024)**
+
+<img width="1184" height="618" alt="image" src="https://github.com/user-attachments/assets/741c43e5-afcd-4a17-801b-c6cd350cac3d" />
+
