@@ -104,3 +104,10 @@ Three clear patterns emerge from this time series.
 - **Consistent seasonality.** Every single year follows the same rhythm: delays climb into a summer peak (June–July), fall back through autumn to a trough around September–October, briefly spike in December, then dip again in February. This seasonal heartbeat repeats reliably across all three years and confirms what the earlier charts showed for 2024 alone.
 - **A worsening multi-year trend.** The peaks are getting higher year on year. The summer 2022 peak reached roughly 140,000 delayed flights; summer 2023 surged to ~175,000; and summer 2024 hit a new high of ~185,000. The troughs are also drifting upward — the autumn 2023 low (~78,000) was lower than autumn 2024 (~82,000), but the general floor of the series is rising. The network is handling more total flights and accumulating more delays over time.
 - **2023 was the most disrupted year overall.** Not only did July 2023 post the highest single month until that point, but the entire mid-year period (May–August 2023) was elevated. 2024 then broke the July record but showed a notably sharper and deeper autumn recovery, with September–November 2024 forming the cleanest low period across the whole series.
+
+The above time series yielded a p-value of 0.000005 (≈ 5.11 × 10⁻⁶) and an ADF Statistic of -5.314, strongly indicating that the data is stationary (i.e., it behaves consistently over time) making it suitable for forecasting using SARIMA models.
+
+**Chart 8: Model Diagnostics of SARIMA Order (0,1,0)**
+
+<img width="311" height="213" alt="image" src="https://github.com/user-attachments/assets/6d6e9255-d854-4370-9899-2911b989cf64" />
+
