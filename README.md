@@ -44,8 +44,12 @@ Flight volumes follow a clear seasonal pattern. The year starts quietly (January
 
 **Chart 2: Number of Flights by Month — On Time vs. Delayed**
 
-<img width="1152" height="544" alt="image" src="https://github.com/user-attachments/assets/1e08ea6e-057e-48b8-98e2-f90edf87a06b" />
+Note: Based on industry standards, any flight that departs more than 15 minutes after its scheduled departure time is counted as a delayed flight.
 
-The above chart illustrates that delay rates start moderately high in January (32%), improve sharply in February (23%), then gradually worsen through spring into a summer peak of 38% in July — meaning more than 1 in 3 flights was delayed that month. Rates then recover strongly through autumn, bottoming out at 20% in October, before deteriorating again into December (30%).
+<img width="1152" height="544" alt="image" src="https://github.com/user-attachments/assets/761d32c4-0ad8-4904-ad13-44cf37dcbdda" />
 
-Two months stand out as anomalies worth noting. February has both the lowest total volume and a surprisingly low delay rate (23%) for a winter month, suggesting it escapes the typical weather disruption that hits January. September–November form a sustained "golden window" of punctuality, with delay rates of 22%, 20%, and 21% respectively. October's 80% on-time rate is the annual best.
+The above chart illustrates that while number of charts throughout the year largely remain uniform, delay rates start moderately in January (22%), improve sharply in February (15%), then gradually worsen through spring into a summer peak of 28% in July — meaning almost 3 in 10 flights were delayed that month. Rates then recover strongly through autumn, bottoming out at 13% in October, before deteriorating again into December (21%). 
+
+Two months stand out as anomalies worth noting. February has both the lowest total volume and a surprisingly low delay rate (15%) for a winter month, suggesting it escapes the typical weather disruption that hits January. September–November form a sustained "golden window" of punctuality, with delay rates of 14%, 13%, and 14% respectively. October's 87% on-time rate is the annual best.
+
+In conclusion, delay rate is not affected by the volume of flights in a month but rather seasonal peaks. In the U.S., summer period peaks in July which coincides with Fourth of July holiday week leading to a spike in domestic travel. Likewise, winter period peaks in late-December and early-January which coincides with Christmas and New Year holiday weeks leading to another spike in domestic travel.
