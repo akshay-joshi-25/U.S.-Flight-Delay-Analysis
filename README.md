@@ -26,7 +26,7 @@ You can access this dataset (via Row Zero) by clicking [here](https://rowzero.co
 
 # 📈 **High-Level Analysis**
 
-Chart 1: Number of Flights by Month with Time-of-Day Breakdown
+**Chart 1: Number of Flights by Month with Time-of-Day Breakdown**
 
 Note:
 - Morning Hrs - consists of all flights that depart anytime between **06:00 and 11:59.**
@@ -41,3 +41,11 @@ Therefore each time-of-day covers ~6 hours.
 The above chart clearly illustrates that while Morning, Afternoon, Evening, and Midnight hours cover exactly the same number of hours (~6 hrs), Morning and Afternoon flights each account to roughly 35% of the total flights every month with Evening (~24%) and Midnight flights (~6%) being a distant #3 and #4 respectively in terms of flight distribution. This shows that majority Americans prefer travelling domestically during daylight hours.
 
 Flight volumes follow a clear seasonal pattern. The year starts quietly (January ~560k, February ~550k — the lowest month), builds through spring, peaks in summer (July at ~660k — the busiest month), eases through autumn, and dips again in November (~605k) before a mild December recovery. Summer demand is roughly 20% higher than the winter low.
+
+**Chart 2: Number of Flights by Month — On Time vs. Delayed**
+
+<img width="1152" height="544" alt="image" src="https://github.com/user-attachments/assets/1e08ea6e-057e-48b8-98e2-f90edf87a06b" />
+
+The above chart illustrates that delay rates start moderately high in January (32%), improve sharply in February (23%), then gradually worsen through spring into a summer peak of 38% in July — meaning more than 1 in 3 flights was delayed that month. Rates then recover strongly through autumn, bottoming out at 20% in October, before deteriorating again into December (30%).
+
+Two months stand out as anomalies worth noting. February has both the lowest total volume and a surprisingly low delay rate (23%) for a winter month, suggesting it escapes the typical weather disruption that hits January. September–November form a sustained "golden window" of punctuality, with delay rates of 22%, 20%, and 21% respectively. October's 80% on-time rate is the annual best.
