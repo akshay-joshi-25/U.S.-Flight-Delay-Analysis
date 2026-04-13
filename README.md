@@ -27,6 +27,7 @@ You can access this dataset (via Row Zero) by clicking [here](https://rowzero.co
 # 📈 **High-Level Analysis**
 
 Chart 1: Number of Flights by Month with Time-of-Day Breakdown
+
 Note:
 - Morning Flight - any flight that departs between 06:00 and 11:59.
 - Afternoon Flight - any flight that departs between 12:00 and 17:59.
