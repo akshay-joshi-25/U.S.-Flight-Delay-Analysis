@@ -131,3 +131,12 @@ Since the model diagnostics showed that the above SARIMA model is well fitted, w
 
 <img width="836" height="182" alt="image" src="https://github.com/user-attachments/assets/e3f20a28-a716-4303-ad6a-25abf2ecce65" />
 
+The SARIMA model has an adjusted R² of 0.78 on seven out-of-sample points, indicating a reasonable fit. The model is directionally sound — it correctly anticipates the upward trend from spring into peak summer — but it struggles at the inflection points: the winter trough transition and the steepness of the summer acceleration. 
+
+January and February are the most problematic months and in opposite directions. The model over-predicts January by 22,251 flights — the largest single error in the table and the biggest contributor to SS_res. It then under-predicts February by 17,800. These back-to-back large errors in opposite directions suggest the model misread the timing of the post-New Year dip, expecting the trough to arrive later than it did. The chart confirms this: the dashed predicted line sits visibly above the actual in January, then dips below it in February.
+
+March through May are the model's best months by some distance. Errors of -6,633, -2,476 and +3,969 are tight, and the predicted line tracks the actual closely on the chart through this window. The model has a solid grasp of the spring volume pattern.
+
+June is the second largest absolute error at 20,001 flights under-predicted. The actual line accelerates sharply upward into summer while the predicted line rises more gradually — the model underestimates the speed and magnitude of the summer ramp. This is a direct consequence of the escalating peak pattern identified in the historical time series: a model trained on earlier, lower peaks will structurally under-forecast a summer that breaks previous records.
+
+July nearly self-corrects, with an error of just 1,901. By the time the series reaches its July plateau, the model converges well — suggesting it knows roughly where the summer ceiling is, even if it misjudges the climb to get there.
