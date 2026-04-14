@@ -48,7 +48,7 @@ Note: Based on industry standards, any flight that departs more than 15 minutes 
 
 <img width="1152" height="544" alt="image" src="https://github.com/user-attachments/assets/761d32c4-0ad8-4904-ad13-44cf37dcbdda" />
 
-The above chart illustrates that while number of charts throughout the year largely remain uniform, delay rates start moderately in January (22%), improve sharply in February (15%), then gradually worsen through spring into a summer peak of 28% in July — meaning almost 3 in 10 flights were delayed that month. Rates then recover strongly through autumn, bottoming out at 13% in October, before deteriorating again into December (21%). 
+The above chart illustrates that while the volume of flights throughout the year remain largely uniform, delay rates start moderately in January (22%), improve sharply in February (15%), then gradually worsen through spring into a summer peak of 28% in July — meaning almost 3 in 10 flights were delayed that month. Rates then recover strongly through autumn, bottoming out at 13% in October, before deteriorating again into December (21%). 
 
 Two months stand out as anomalies worth noting. February has both the lowest total volume and a surprisingly low delay rate (15%) for a winter month, suggesting it escapes the typical weather disruption that hits January. September–November form a sustained "golden window" of punctuality, with delay rates of 14%, 13%, and 14% respectively. October's 87% on-time rate is the annual best.
 
