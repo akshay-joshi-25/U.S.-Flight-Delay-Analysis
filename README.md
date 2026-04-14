@@ -2,7 +2,7 @@
 
 This project has two main objectives:
 1. Analyze the key factors contributing to flight delays in 2024.
-2. Forecast the number of delayed flights for each month from January to July 2025.
+2. Forecast the number of delayed flights for each month from January 2025 to July 2025 using historical data (Jan 2022 to Dec 2024).
 
 # 📌 **Overview**
 
