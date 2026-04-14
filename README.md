@@ -140,3 +140,6 @@ March through May are the model's best months by some distance. Errors of -6,633
 June is the second largest absolute error at 20,001 flights under-predicted. The actual line accelerates sharply upward into summer while the predicted line rises more gradually — the model underestimates the speed and magnitude of the summer ramp. This is a direct consequence of the escalating peak pattern identified in the historical time series: a model trained on earlier, lower peaks will structurally under-forecast a summer that breaks previous records.
 
 July nearly self-corrects, with an error of just 1,901. By the time the series reaches its July plateau, the model converges well — suggesting it knows roughly where the summer ceiling is, even if it misjudges the climb to get there.
+
+You can access the Python code used to build the SARIMA model and make predictions by clicking [here.](https://github.com/akshay-joshi-25/U.S.-Flight-Delay-Analysis/blob/main/Time%20Series%20Modelling.ipynb)
+To access the CSV file used to train the SARIMA model, click [here.](https://github.com/akshay-joshi-25/U.S.-Flight-Delay-Analysis/blob/main/Delayed%20Flights.csv)
