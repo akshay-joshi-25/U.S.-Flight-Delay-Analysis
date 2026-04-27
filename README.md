@@ -1,14 +1,13 @@
 # 📊 **U.S. Flight Delay Analysis**
 
 This project has two main objectives:
-1. Analyze the key factors contributing to flight delays in 2024.
+1. Conduct Exploratory Data Analysis on 2024 Flight Delay data.
 2. Forecast the number of delayed flights for each month from January 2025 to July 2025 using historical data (Jan 2022 to Dec 2024).
 
 # 📌 **Overview**
 
 This project will cover the following:
 - Conduct a high-level analysis of flights delayed in the U.S. in 2024.
-- Assess factors contributing to flights getting delayed in the U.S. in 2024.
 - Forecast the number of flights that will be delayed in the first half of 2025 using a Time Series model.
 - Compare the predictions with the actuals to evaluate model accuracy.
 
