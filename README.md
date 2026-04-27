@@ -43,6 +43,8 @@ Flight volumes, though largely uniform end up following a clear seasonal pattern
 
 **Chart 2: Delayed Flights by Month with Time-of-Day Breakdown and Average Delay Duration**
 
+Note: Based on industry standards, a flight is considered to be delayed if it departs more than 15 minutes after its scheduled departure time.
+
 <img width="1440" height="671" alt="image" src="https://github.com/user-attachments/assets/eacd16cd-924a-4a08-afd3-f26184326d5c" />
 
 The above chart illustrates that:
