@@ -64,39 +64,9 @@ The above chart illustrates that:
 - A rather surprising finding from the above chart is the distribution of delayed flights by Time-of-day. For instance, although Chart 1 established that Morning hrs flights accounted to 36% of the total flights in 2024, Chart 3 showed that they accounted to only 20% of the total delayed flights that year. On the other hand, while Evening hrs flights only accounted to 23% of the total flights in 2024 (based on Chart 1), they accounted to 39% of the total delayed flights that year (based on Chart 3). This concludes that Evening hrs flights were relatively the most inefficient in terms of being on time in 2024.
 - The average delay duration trend clearly illustrates a strong positive correlation (+0.92) between the number of flights delayed in a month and the monthly average delay in minutes. In other words, greater the number of delayed flights in a month, higher would be the average delay in minutes. 
 
-**Chart 4: Delayed Flights by Time-of-Day (with On-Time vs. Delayed breakdown) and Average Delay Duration**
-
-<img width="1013" height="541" alt="image" src="https://github.com/user-attachments/assets/3f766a54-7723-4fa3-8be7-1fb25b3a9e41" />
-
-The above chart illustrates that:
-- In terms of the proportion of delayed flights, Evening Hrs flights are the most inefficient since 33% of their flights were delayed in 2024. Therefore, this finding corroborates one of the findings of Chart 3.
-- In terms of average delay duration (in minutes), Midnight Hrs flights are the most inefficient because on average, they are delayed by 144 minutes (2 hrs and 24 mins), which is nearly 2 times the delay rate of Morning, Afternoon, and Evening Hrs flights.
-
-**Chart 5: Top 35 Airport Origins by Number of Delayed Flights**
-
-Context: The reason behind analyzing only the top 35 airports (by origins) and not all airports was that approximately 70% of the total flights delayed in 2024 came from these top 35 airports.
-
-<img width="1121" height="594" alt="image" src="https://github.com/user-attachments/assets/3f293022-e16c-44d4-9520-24f11f789383" />
-
-The above chart illustrates that:
-- **DFW is in a league of its own.** Dallas/Fort Worth originates roughly 82,000 delayed flights in 2024 — meaningfully ahead of the next tier of Denver (DEN, ~69,500), Chicago O'Hare (ORD, ~65,500), Charlotte (CLT, ~60,000) and Atlanta (ATL, ~59,000). These five airports form a clear top tier, all major hub-and-spoke hubs with enormous connecting traffic. Their sheer volume of operations makes them naturally susceptible to delay accumulation.
-- **Volume and mean don't have a statistically meaningful correlation.** The red line does not follow the bars — it moves independently, which is the most important structural insight in this chart. SEA (Seattle) and DCA (Washington Reagan) both have moderate delay volumes (~34,500 and ~26,000 respectively) but post two of the lowest mean delays on the chart (~56 minutes each). Conversely, MCO (Orlando), IAH (Houston Intercontinental), and STL (St. Louis) show relatively high mean delays despite sitting in the lower half of the volume ranking. This tells us that being a busy origin does not necessarily mean your delays are long — and a quieter airport can still punish passengers with lengthy waits when disruptions do occur.
-
-**Chart 6: Top 35 Airport Destinations by Number of Delayed Flights**
-
-Context: The reason behind analyzing only the top 35 airports (by destination) and not all airports was that approximately 70% of the total flights delayed in 2024 came from these top 35 airports.
-
-<img width="1095" height="608" alt="image" src="https://github.com/user-attachments/assets/de8a48f1-7f41-4957-b21b-0f0c49fde7ea" />
-
-The above chart illustrates that:
-- **The destination ranking mirrors origins closely, but with lower volumes.** DFW again leads (~68,000 delayed arrivals), followed by ATL, DEN, and ORD in a tight cluster (~56,000–57,500 each). The same major hub airports dominate — unsurprising, since the busiest origin airports are also the busiest destinations. However, the volumes are consistently lower than on the origins chart, which reflects the fact that delays accumulated in flight can sometimes be partially recovered before landing.
-- **Mean delay durations are higher and more volatile at destinations than at origins.** This is the most striking difference between the two charts. Where origin mean delays ranged roughly from 56 to 88 minutes, destination mean delays are elevated across the board and spike more dramatically. DFW stands out with a mean arrival delay of ~96 minutes — the highest of any airport in either chart. DEN, ORD, LGA, EWR, DCA, and JFK all cluster around 88–90 minutes. This makes intuitive sense: arrival delays compound. A flight that departs late, encounters en-route issues, or arrives into a congested airport stacks multiple delay sources on top of each other, pushing the average duration higher than at the point of origin.
-
-Another interesting finding upon reading Charts 5 and 6 together is that with the exception of MSY (New Orleans), the same airports appear in both top 35 lists, confirming that delay risk is structurally concentrated at a handful of major hubs — DFW, DEN, ORD, ATL, and CLT. These airports generate and receive the most delayed flights simply because they handle the most total traffic and act as connection points where delays propagate across the network.
-
 # 🧠 **Forecasting Flight Delay using Time Series Model**
 
-**Chart 7: Volume of Delayed Flights (Jan 2022 to Dec 2024)**
+**Chart 4: Volume of Delayed Flights (Jan 2022 to Dec 2024)**
 
 <img width="1184" height="618" alt="image" src="https://github.com/user-attachments/assets/bbd2c446-6b71-47c2-883b-12253ef4c617" />
 
@@ -107,7 +77,7 @@ Three clear patterns emerge from this time series.
 
 The above time series yielded a p-value of 0.000005 (≈ 5.11 × 10⁻⁶) and an ADF Statistic of -5.314, strongly indicating that the data is stationary (i.e., it behaves consistently over time) making it suitable for forecasting using SARIMA models.
 
-**Chart 8: Model Diagnostics of SARIMA Order (0,1,0)**
+**Chart 5: Model Diagnostics of SARIMA Order (0,1,0)**
 
 <img width="311" height="213" alt="image" src="https://github.com/user-attachments/assets/6d6e9255-d854-4370-9899-2911b989cf64" />
 
@@ -127,7 +97,7 @@ All autocorrelation bars fall well within the shaded confidence band (approximat
 
 Since the model diagnostics showed that the above SARIMA model is well fitted, we will use it to predict delayed flights between Jan 2025 and July 2025 and compare it with the actuals.
 
-**Chart 9: Actuals vs. Predictions Comparison**
+**Chart 6: Actuals vs. Predictions Comparison**
 
 <img width="836" height="182" alt="image" src="https://github.com/user-attachments/assets/e3f20a28-a716-4303-ad6a-25abf2ecce65" />
 
